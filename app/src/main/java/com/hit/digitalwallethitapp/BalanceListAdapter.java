@@ -23,6 +23,7 @@ public class BalanceListAdapter extends RecyclerView.Adapter<BalanceListAdapter.
         this.clickListener = clickListener;
     }
 
+    
     @NonNull
     @Override
     public BalanceViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
